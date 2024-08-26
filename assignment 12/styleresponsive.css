@@ -1,0 +1,165 @@
+/* nav slide. */
+
+@media only screen and (max-width: 750px) {
+    .main-slide {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 60px;
+        margin: auto;
+        background-color: #F5F5F5;
+        padding-bottom: 15px;
+    }
+
+    .nav-slide {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50px;
+        gap: 5px;
+    }
+
+    .nav-slide .image {
+        height: 100%;
+        width: 100%;
+        padding: 5px 70px;
+        border: 1px solid rgb(218, 202, 202);
+        margin-top: 5px;
+    }
+
+    .nav-slide .image4,
+    .nav-slide .image5,
+    .nav-slide .image6 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .nav-slide .image {
+        height: 100%;
+        width: 100%;
+        padding: 5px 50px;
+        border: 1px solid rgb(218, 202, 202);
+        margin-top: 5px;
+    }
+
+}
+
+/* nav. and section1*/
+
+@media only screen and (max-width: 835px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        font-size: 13px;
+
+    }
+
+    .navbar .nav-box img {
+        display: none;
+    }
+
+    .s1-box {
+        width: 80vw;
+    }
+
+    .s1-box4 {
+        margin-top: -55px;
+    }
+
+    .s1-box6 {
+        margin-top: -50px;
+    }
+
+    .section1 .main {
+        display: grid;
+        width: 90%;
+        grid-template-areas: "one"
+            "two"
+            "three"
+            "four"
+            "five"
+            "six";
+        gap: 10px;
+        margin-left: 50px;
+        margin-top: 15px;
+        height: 1800px;
+    }
+
+    nav {
+        position: static;
+    }
+}
+
+
+/* section2 */
+
+@media only screen and (max-width: 835px) {
+    .section2 {
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+}
+
+/* section3. */
+
+@media only screen and (max-width: 835px) {
+    .section3 .main {
+        display: grid;
+        width: 80vw;
+        height: 140vh;
+        grid-template-areas: "seven"
+            "eight"
+            "nine"
+            "ten"
+            "eleven"
+            "twelve";
+        gap: 10px;
+        margin-top: -450px;
+        margin-bottom: 100px;
+    }
+
+    .s3-box2 {
+        margin-bottom: -90px;
+    }
+
+    .s3-box3 {
+        margin-top: -40px;
+        margin-bottom: -30px;
+    }
+
+    .s3-box6 {
+        margin-top: -60px;
+    }
+
+    .s3-box {
+        transition: 1s;
+    }
+
+    .s3-box:hover {
+        transform: scale(1.2);
+        z-index: 1;
+    }
+}
+
+/* footer. */
+
+
+
+@media only screen and (max-width: 650px) {
+    footer {
+        height: 900px;
+    }
+
+    .naseembox {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .signupp{
+        padding-top: 111px;
+    }
+}
